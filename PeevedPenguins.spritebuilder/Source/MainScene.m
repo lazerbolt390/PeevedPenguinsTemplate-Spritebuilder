@@ -9,5 +9,9 @@
 #import "MainScene.h"
 
 @implementation MainScene
+- (void)play {
+    CCLOG(@"play butt pressed");
+}
+
 
 @end
