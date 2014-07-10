@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -161,7 +161,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>0.0</real>
+							<real>1.440000057220459</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -338,7 +338,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>224.72000122070312</real>
+							<real>226.16000366210938</real>
 							<real>171.91999816894531</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -502,7 +502,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>8</integer>
+				<integer>9</integer>
 				<key>baseClass</key>
 				<string>CCBFile</string>
 				<key>children</key>
@@ -682,13 +682,13 @@
 			<key>chainedSequenceId</key>
 			<integer>-1</integer>
 			<key>length</key>
-			<real>2</real>
+			<real>0.0</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.60000002384185791</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
