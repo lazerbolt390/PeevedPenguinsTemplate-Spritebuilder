@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>11</integer>
+	<integer>14</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -575,15 +575,15 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>7</integer>
+				<integer>11</integer>
 				<key>baseClass</key>
-				<string>CCBFile</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>Seal</string>
+				<string>seal</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -605,11 +605,22 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>24</real>
-							<real>13.5</real>
+							<real>22</real>
+							<real>19</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.44516780972480774</real>
+							<real>0.52078127861022949</real>
 						</array>
 					</dict>
 					<dict>
@@ -627,25 +638,41 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>ccbFile</string>
+						<string>spriteFrame</string>
 						<key>type</key>
-						<string>CCBFile</string>
+						<string>SpriteFrame</string>
 						<key>value</key>
-						<string>Seal.ccb</string>
+						<array>
+							<string></string>
+							<string>PeevedPenguinsAssets/seal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
 					</dict>
 				</array>
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>8</integer>
+				<integer>12</integer>
 				<key>baseClass</key>
-				<string>CCBFile</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>Seal</string>
+				<string>seal</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -667,11 +694,22 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>279</real>
-							<real>14.5</real>
+							<real>174</real>
+							<real>17</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -689,25 +727,41 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>ccbFile</string>
+						<string>spriteFrame</string>
 						<key>type</key>
-						<string>CCBFile</string>
+						<string>SpriteFrame</string>
 						<key>value</key>
-						<string>Seal.ccb</string>
+						<array>
+							<string></string>
+							<string>PeevedPenguinsAssets/seal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
 					</dict>
 				</array>
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>9</integer>
+				<integer>13</integer>
 				<key>baseClass</key>
-				<string>CCBFile</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>Seal</string>
+				<string>seal</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -729,11 +783,22 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>176</real>
-							<real>14.5</real>
+							<real>273</real>
+							<real>18</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -751,11 +816,27 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>ccbFile</string>
+						<string>spriteFrame</string>
 						<key>type</key>
-						<string>CCBFile</string>
+						<string>SpriteFrame</string>
 						<key>value</key>
-						<string>Seal.ccb</string>
+						<array>
+							<string></string>
+							<string>PeevedPenguinsAssets/seal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
 					</dict>
 				</array>
 			</dict>
@@ -830,6 +911,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
