@@ -136,8 +136,8 @@
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				B7378992180767190076A88C /* MainScene.h */,
 				B60E944A196E11830060AFDB /* Gameplay.h */,
 				B60E944B196E11830060AFDB /* Gameplay.m */,
 				B698FBA31966EF0B00D0D8BC /* Penguin.m */,
