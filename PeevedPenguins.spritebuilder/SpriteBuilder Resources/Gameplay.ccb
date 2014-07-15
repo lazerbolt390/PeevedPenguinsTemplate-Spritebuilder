@@ -614,8 +614,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -1059,8 +1057,8 @@
 									<real>40.464385986328125</real>
 								</array>
 								<array>
-									<real>66.091873168945312</real>
-									<real>75.069389343261719</real>
+									<real>65.028724670410156</real>
+									<real>81.830635070800781</real>
 								</array>
 								<array>
 									<real>140.21812438964844</real>
@@ -1091,8 +1089,8 @@
 										<real>64.173759460449219</real>
 									</array>
 									<array>
-										<real>66.091873168945312</real>
-										<real>75.069389343261719</real>
+										<real>65.028724670410156</real>
+										<real>81.830635070800781</real>
 									</array>
 									<array>
 										<real>3.2437653541564941</real>
@@ -1178,6 +1176,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
