@@ -15,7 +15,7 @@
     CCNode *_contentNode;
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
-    CCPhysicsJoint *_mouseJoint;
+    CCNode*_mouseJoint;
 }
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
