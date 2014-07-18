@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>26</integer>
+	<integer>31</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -1134,8 +1134,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>9.1106452941894531</real>
+											<real>1.3537569046020508</real>
 										</array>
 										<array>
 											<real>3.2437653541564941</real>
@@ -1150,25 +1150,35 @@
 											<real>64.173759460449219</real>
 										</array>
 										<array>
-											<real>194.015625</real>
-											<real>49.408138275146484</real>
+											<real>189.74063110351562</real>
+											<real>56.276260375976562</real>
 										</array>
 										<array>
-											<real>217.52812194824219</real>
-											<real>14.150635719299316</real>
+											<real>221.94938659667969</real>
+											<real>33.444381713867188</real>
+										</array>
+										<array>
+											<real>221.70750427246094</real>
+											<real>4.3575072288513184</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>217.52812194824219</real>
-												<real>14.150635719299316</real>
+												<real>221.94938659667969</real>
+												<real>33.444381713867188</real>
 											</array>
 											<array>
-												<real>194.015625</real>
-												<real>49.408138275146484</real>
+												<real>189.74063110351562</real>
+												<real>56.276260375976562</real>
 											</array>
+											<array>
+												<real>140.21812438964844</real>
+												<real>64.173759460449219</real>
+											</array>
+										</array>
+										<array>
 											<array>
 												<real>140.21812438964844</real>
 												<real>64.173759460449219</real>
@@ -1182,8 +1192,16 @@
 												<real>40.464385986328125</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
+												<real>9.1106452941894531</real>
+												<real>1.3537569046020508</real>
+											</array>
+											<array>
+												<real>221.70750427246094</real>
+												<real>4.3575072288513184</real>
+											</array>
+											<array>
+												<real>221.94938659667969</real>
+												<real>33.444381713867188</real>
 											</array>
 										</array>
 									</array>
@@ -1676,8 +1694,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
