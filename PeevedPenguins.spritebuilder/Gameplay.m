@@ -76,11 +76,11 @@
 }
 
 - (void)releaseCatapult {
-    if (_mouseJoint != nil)
+    if (_mouseJoint != NULL)
     {
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
-        _mouseJoint = nil;
+        _mouseJoint = NULL;
     }
 }
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
