@@ -16,6 +16,8 @@
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
+    CCNode *_currentPenguin;
+    CCPhysicsJoint *_penguinCatapultJoint;
     
 }
 - (void)didLoadFromCCB {
@@ -28,6 +30,7 @@
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    _physicsNode.collisionDelegate = self;
 }
 
 // called on every touch in this scene
@@ -82,6 +85,16 @@
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
         _mouseJoint = nil;
+        // releases the joint and lets the penguin fly
+        [_penguinCatapultJoint invalidate];
+        _penguinCatapultJoint = nil;
+        
+        // after snapping rotation is fine
+        _currentPenguin.physicsBody.allowsRotation = TRUE;
+        
+        // follow the flying penguin
+        CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:follow];
     }
 }
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
