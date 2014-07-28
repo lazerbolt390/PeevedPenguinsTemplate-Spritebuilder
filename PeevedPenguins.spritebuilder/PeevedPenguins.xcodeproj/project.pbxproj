@@ -132,6 +132,7 @@
 				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
 			);
 			name = libs;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B737893C1807616C0076A88C /* Source */ = {
@@ -187,7 +188,6 @@
 			children = (
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
-				9222E2B918734FF800A246C7 /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
 				B77F1B3017B978D7009739AE /* Frameworks */,
 				B77F1B2F17B978D7009739AE /* Products */,
@@ -223,6 +223,7 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9222E2B918734FF800A246C7 /* libs */,
 				B73789911807667A0076A88C /* Icons */,
 				B737893A180761570076A88C /* Published-iOS */,
 			);

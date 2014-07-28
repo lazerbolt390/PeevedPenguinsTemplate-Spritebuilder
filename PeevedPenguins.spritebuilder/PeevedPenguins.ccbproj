@@ -65,7 +65,7 @@
 	<key>publishToZipFile</key>
 	<false/>
 	<key>resourceAutoScaleFactor</key>
-	<integer>2</integer>
+	<integer>4</integer>
 	<key>resourcePaths</key>
 	<array>
 		<dict>
@@ -80,18 +80,13 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>PeevedPenguinsAssets</key>
+		<key>PeevedPenguinsIPadAssets/PeevedPenguinsAssets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>Sprites</key>
 		<dict/>
-		<key>animation</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
 		<key>animation/51.png</key>
 		<dict/>
 		<key>animation/animation</key>
