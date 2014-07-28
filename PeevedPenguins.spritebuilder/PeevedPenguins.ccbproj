@@ -80,7 +80,7 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>PeevedPenguinsIPadAssets/PeevedPenguinsAssets</key>
+		<key>PeevedPenguinsAssets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
