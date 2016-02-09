@@ -450,6 +450,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.Mole;
 				PRODUCT_NAME = PeevedPenguins;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -482,6 +483,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocos2d.Mole;
 				PRODUCT_NAME = PeevedPenguins;
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
