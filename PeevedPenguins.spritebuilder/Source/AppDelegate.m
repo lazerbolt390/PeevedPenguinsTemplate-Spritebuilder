@@ -49,7 +49,8 @@
     // Configure CCFileUtils to work with SpriteBuilder
     [CCBReader configureCCFileUtils];
     
-    // Do any extra configuration of Cocos2d here (the example line changes the pixel format for faster rendering, but with less colors)
+    // Do any extra configuration of Cocos2d here (the example line changes the pixel format for faster rendering, but with less colors)No provisioning profiles with a valid signing identity (i.e. certificate and private key pair) matching the bundle identifier “com.apportable.PeevedPenguins” were found.
+
     //[cocos2dSetup setObject:kEAGLColorFormatRGB565 forKey:CCConfigPixelFormat];
     
     [self setupCocos2dWithOptions:cocos2dSetup];
